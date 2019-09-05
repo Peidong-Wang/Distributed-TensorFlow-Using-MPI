@@ -1,8 +1,8 @@
 # Distributed-TensorFlow-Using-MPI
-Template for Deploying Distributed TensorFlow on Clusters like Ohio Supercomputer Center (OSC) Owens Using MPI
+Template for Deploying Distributed TensorFlow on Clusters Using MPI
 
 ## Brief Description
-Scripts in this repository can be used on dynamically allocated clusters like OSC Owens. It combines mpi4py with the typical distributed TensorFlow cluster settings (see the template at https://www.tensorflow.org/deploy/distributed). The basic idea is to use MPI to traverse among the nodes and set up the TensorFlow cluster.
+Scripts in this repository can be used on dynamically allocated clusters. It combines mpi4py with the typical distributed TensorFlow cluster settings (see the template at https://www.tensorflow.org/deploy/distributed). The basic idea is to use MPI to traverse among the nodes and set up the TensorFlow cluster.
 
 ## Contents
 1. distributed_tensorflow.sh: the PBS script you can use while submitting jobs
